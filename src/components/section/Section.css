@@ -1,0 +1,61 @@
+section.full {
+  margin-top: 100px;
+}
+.borders-top {
+  border-top: 0.1px solid #91909038;
+  width: 100%;
+  margin: auto;
+}
+
+img.clor {
+  background-color: rgb(33, 41, 52);
+}
+.ca {
+  cursor: pointer;
+}
+.ca a {
+  font-size: 1px;
+}
+.hove-underline-animation {
+  position: relative;
+  color: #fff;
+}
+
+.hove-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 95%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 1px;
+  margin-top: 3px;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.20s ease-out;
+}
+
+.ca:hover .hove-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.c-item{
+height: 520px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+.cart{
+  background-color: rgb(46,33,43);
+  border-radius: 12px; 
+}
+.last{
+  background-color: rgb(27,44,44);
+  border-radius: 12px; 
+}
+.first{
+  background-color: rgb(26,37,55);
+  border-radius: 12px; 
+}

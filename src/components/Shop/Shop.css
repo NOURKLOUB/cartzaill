@@ -1,0 +1,19 @@
+.bg-warning-subtl {
+  cursor: pointer;
+  background-color: rgb(47, 41, 37) !important;
+}
+.text-dark-emphasis {
+  color: #fff !important;
+}
+.bg-warning-subt {
+  background-color: rgb(27, 44, 44) !important;
+  cursor: pointer;
+}
+.bg-warning-su {
+  background-color: rgb(26, 37, 55) !important;
+  cursor: pointer;
+}
+.bg-warning-s {
+  background-color: rgb(46, 32, 39) !important;
+  cursor: pointer;
+}

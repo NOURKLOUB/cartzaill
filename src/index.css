@@ -1,0 +1,13 @@
+html , body{
+  background-color: rgb(24,29,37);
+  color: white;
+}
+::-webkit-scrollbar{
+  width: 1%;
+  height: 0.5px;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(54, 55, 55);
+  border-radius: 50%;
+}

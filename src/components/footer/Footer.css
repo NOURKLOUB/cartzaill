@@ -1,0 +1,11 @@
+footer{
+    background-color: rgb(33,41,52);
+}
+@media (max-width:500px) {
+    .foters{
+        flex-direction: column;
+    }
+    #searcgh{
+        width: 100%;
+    }
+}
